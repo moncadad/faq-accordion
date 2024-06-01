@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-9tCVLCFQeh)
 - [Live Site URL](https://stellar-halva-644a70.netlify.app/)
 
 ## My process
