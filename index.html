@@ -12,80 +12,79 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="./app.js" defer></script>
+    <!-- <script src="./app.js" defer></script> -->
     <title>Frontend Mentor | FAQ accordion</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <body>
-      <main class="container">
-        <div class="wrapper">
-          <h2>
-            <img
-              src="./assets/images/icon-star.svg"
-              alt="Decorative Star"
-            />FAQs
-          </h2>
-          <div class="wrapper">
-            <button class="accordion">
+      <main class="main accordion">
+        <h1 class="main__heading accordion__heading">
+          <img
+            src="../assets/images/icon-star.svg"
+            alt="Decorative Purple Star"
+            class="icon"
+          />FAQs
+        </h1>
+
+        <section class="question__tab question__tab--1">
+          <input type="checkbox" name="accordion-1" id="cb1" />
+          <label for="cb1" class="question__label">
+            <h1 class="question__heading">
               What is Frontend Mentor, and how will it help me?
-            </button>
-            <div class="panel">
-              <p>
-                Frontend Mentor offers realistic coding challenges to help
-                developers improve their frontend coding skills with projects in
-                HTML, CSS, and JavaScript. It's suitable for all levels and
-                ideal for portfolio building.
-              </p>
-            </div>
+            </h1>
+          </label>
 
-            <button class="accordion">Is Frontend Mentor free?</button>
-            <div class="panel">
-              <p>
-                Yes, Frontend Mentor offers both free and premium coding
-                challenges, with the free option providing access to a range of
-                projects suitable for all skill levels.
-              </p>
-            </div>
+          <p class="question__response question__response--q1">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
+        </section>
 
-            <button class="accordion">
+        <section class="question__tab question__tab--2">
+          <input type="checkbox" name="accordion-2" id="cb2" />
+          <label for="cb2" class="question__label">
+            <h1 class="question__heading">Is Frontend Mentor free?</h1>
+          </label>
+
+          <p class="question__response question__response--q2">
+            Yes, Frontend Mentor offers both free and premium coding challenges,
+            with the free option providing access to a range of projects
+            suitable for all skill levels.
+          </p>
+        </section>
+
+        <section class="question__tab question__tab--3">
+          <input type="checkbox" name="accordion-3" id="cb3" />
+          <label for="cb3" class="question__label">
+            <h1 class="question__heading">
               Can I use Frontend Mentor projects in my portfolio?
-            </button>
-            <div class="panel">
-              <p>
-                Yes, you can use projects completed on Frontend Mentor in your
-                portfolio. It's an excellent way to showcase your skills to
-                potential employers!
-              </p>
-            </div>
+            </h1>
+          </label>
 
-            <button class="accordion">
+          <p class="question__response question__response--q2">
+            Yes, you can use projects completed on Frontend Mentor in your
+            portfolio. It's an excellent way to showcase your skills to
+            potential employers!
+          </p>
+        </section>
+
+        <section class="question__tab question__tab--4">
+          <input type="checkbox" name="accordion-3" id="cb4" />
+          <label for="cb4" class="question__label">
+            <h1 class="question__heading">
               How can I get help if I'm stuck on a challenge?
-            </button>
-            <div class="panel">
-              The best place to get help is inside Frontend Mentor's Discord
-              community. There's a help channel where you can ask questions and
-              seek support from other community members.
-            </div>
-          </div>
-        </div>
+            </h1>
+          </label>
+
+          <p class="question__response question__response--q4">
+            The best place to get help is inside Frontend Mentor's Discord
+            community. There's a help channel where you can ask questions and
+            seek support from other community members.
+          </p>
+        </section>
       </main>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Denise</a>.
-      </div>
     </body>
   </body>
 </html>
